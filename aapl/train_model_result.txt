@@ -1,0 +1,20 @@
+   Day_Of_Week  Week_Of_Year Trend
+0            2            30  Bull
+1            3            30  Bull
+2            4            30  Bear
+3            5            30  Bull
+4            1            31  Bull
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 252 entries, 0 to 251
+Data columns (total 3 columns):
+ #   Column        Non-Null Count  Dtype 
+---  ------        --------------  ----- 
+ 0   Day_Of_Week   252 non-null    int64 
+ 1   Week_Of_Year  252 non-null    int64 
+ 2   Trend         252 non-null    object
+dtypes: int64(2), object(1)
+memory usage: 6.0+ KB
+None
+Model saved to market_trend_prediction_model.joblib
+Accuracy: 0.5294117647058824
+[1]
